@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rou.SelectMapMenuCL">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@SelectMapMenu.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="232.0" fitWidth="405.0" layoutX="278.0" layoutY="166.0" onMouseClicked="#JungleImgBTN" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Playground.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="112.0" layoutX="14.0" layoutY="487.0" onMouseClicked="#MenuBTN" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MenuBTN.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="446.0" layoutX="259.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@SelectMapTXT.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="182.0" layoutX="389.0" layoutY="401.0" onMouseClicked="#JungleMapBTN" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@JungleBTN.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

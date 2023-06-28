@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rou.StartMenuCL">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="960.0" onMouseClicked="#StartBTN" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@StartMenu.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="174.0" layoutX="397.0" layoutY="388.0" onMouseClicked="#StartBTN" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@StartBTN_In.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

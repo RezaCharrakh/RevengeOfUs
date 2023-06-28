@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="MyMap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rou.MapJungleCL">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Playground.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Nerd" fitHeight="63.0" fitWidth="57.0" layoutX="853.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Us_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Fool" fitHeight="76.0" fitWidth="52.0" layoutX="801.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Us_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Lazy" fitHeight="63.0" fitWidth="52.0" layoutX="750.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Us_4.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="LazyR" arcWidth="5.0" fill="#ffffff00" height="63.0" layoutX="746.0" layoutY="8.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="52.0" />
+      <Rectangle fx:id="FoolR" arcWidth="5.0" fill="#ffffff00" height="76.0" layoutX="801.0" layoutY="-7.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="52.0" />
+      <Rectangle fx:id="NerdR" arcWidth="5.0" fill="#ffffff00" height="63.0" layoutX="850.0" layoutY="8.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="57.0" />
+      <Rectangle fx:id="LeaderR" arcWidth="5.0" fill="#ffffff00" height="63.0" layoutX="912.0" layoutY="8.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="42.0" />
+      <Rectangle fx:id="PlayGround" arcWidth="5.0" fill="#ffffff00" height="540.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="960.0" />
+      <ImageView fitHeight="36.0" fitWidth="78.0" layoutX="827.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Line1_BTN.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="78.0" layoutX="827.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Line2_BTN.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="78.0" layoutX="827.0" layoutY="503.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Line3_BTN.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="Line1BTNR" arcWidth="5.0" fill="#ffffff00" height="36.0" layoutX="827.0" layoutY="177.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="78.0" />
+      <Rectangle fx:id="Line2BTNR" arcWidth="5.0" fill="#ffffff00" height="36.0" layoutX="827.0" layoutY="332.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="78.0" />
+      <Rectangle fx:id="Line3BTNR" arcWidth="5.0" fill="#ffffff00" height="31.0" layoutX="827.0" layoutY="503.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="78.0" />
+      <ImageView fitHeight="96.0" fitWidth="228.0" layoutX="366.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@StartBTN_In.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="127.0" layoutX="7.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MenuBTN.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="StartBTNR" arcWidth="5.0" fill="#ffffff00" height="90.0" layoutX="366.0" layoutY="225.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="228.0" />
+      <Rectangle fx:id="MenuBTNR" arcWidth="5.0" fill="#ffffff00" height="43.0" layoutX="7.0" layoutY="10.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="117.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="qqq" fitHeight="150.0" fitWidth="200.0" layoutX="246.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
